@@ -2,6 +2,8 @@ header {
   box-sizing: content-box;
   width: 100%;
   height: 120px;
+  position: fixed;
+  top: 0;
   background-color: #f6f5ef;
   border-top: 2px solid #000000;
   border-bottom: 1px solid #e5e5e5;
@@ -10,3 +12,74 @@ header {
 /* header .header-wrapper {
   margin: 0 auto;
 } */
+
+main {
+  width: 100%;
+  margin-top: 123px;
+}
+
+main .main-home {
+  height: 646px;
+  background-image: url("../../assets/main_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .main-promotion {
+  height: 62px;
+  background: linear-gradient(0.25turn, #111111 50%, #f6f5ef 50%);
+}
+
+main .main-st-reward {
+  box-sizing: content-box;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #1e3932;
+  color: white;
+  height: 170.2px;
+}
+
+main .main-season-menu1 {
+  width: 100%;
+  height: 572px;
+  background-image: url("../../assets/season_menu1.png");
+  background-position: 70% center;
+  background-size: cover;
+}
+
+main .main-season-menu2 {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../assets/season_menu2-2.jpg");
+  background-position: 50% center;
+  background-size: cover;
+}
+
+main .main-menu {
+  width: 100%;
+  height: 800px;
+  background-color: #45434c;
+  background-image: url("../../assets/menu_bg.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+main .main-magazine {
+  width: 100%;
+  height: 400px;
+}
+
+main .main-store {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../assets/store_bg.jpg");
+}
+
+footer {
+  width: 100%;
+  height: 601px;
+  background-color: #2c2a29;
+}
