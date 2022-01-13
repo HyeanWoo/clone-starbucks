@@ -32,27 +32,70 @@ header {
   background-position: center;
 }
 
+.header-menu {
+  width: 800px;
+  height: 120px;
+  position: relative;
+}
+
 .menu-subbar {
+  position: absolute;
+  top: 15px;
+  right: 62px;
+  height: 20px;
   display: flex;
   background-image: url("../../assets/sdown_util_sep.png");
   background-repeat: no-repeat;
 }
 
 .menu-subbar > ul {
+  position: relative;
+  left: 16px;
   display: flex;
+  font-size: 13px;
+  font-family: Avenir, Arial, georgia;
+  color: #555555;
 }
 
-.menu-subbar > ul > li:not(:last-child):after {
-  /* content: "|"; */
+.menu-subbar > ul a {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.menu-subbar > ul li:nth-child(1) a {
+  width: 76px;
+}
+.menu-subbar > ul li:nth-child(2) a {
+  width: 107px;
+}
+.menu-subbar > ul li:nth-child(3) a {
+  width: 181px;
+}
+.menu-subbar > ul li:nth-child(4) a {
+  margin-left: 1px;
+  width: 97px;
 }
 
 #subbar-btn {
+  position: relative;
+  top: -6px;
+  left: 8px;
   width: 34px;
   height: 34px;
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 5px;
   padding: 5px;
+}
+
+#subbar-btn img {
+  margin-top: 1px;
+}
+
+.menu-navbar {
+  position: absolute;
+  top: 60px;
+  right: 0;
 }
 
 #subbar-btn img {
