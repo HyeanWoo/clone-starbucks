@@ -27,7 +27,7 @@ header {
   display: block;
   width: 75px;
   height: 100%;
-  background-image: url("../../assets/logo.png");
+  background-image: url("../../assets/header/logo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -46,7 +46,7 @@ header {
   right: 62px;
   height: 20px;
   display: flex;
-  background-image: url("../../assets/sdown_util_sep.png");
+  background-image: url("../../assets/header/subbar-vertical.png");
   background-repeat: no-repeat;
   background-position: 3px;
 }
