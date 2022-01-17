@@ -1,0 +1,71 @@
+main {
+  width: 100%;
+  margin-top: 123px;
+}
+
+.main-home {
+  height: 646px;
+  background-image: url("../../assets/img/main/home/home_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-container {
+  position: relative;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.home-detail {
+  /* opacity: 1; */
+  max-width: 282px;
+  width: 26.2%;
+  padding-top: 5.1%;
+  padding-left: 1.8%;
+}
+
+.home-slogan {
+  max-width: none;
+}
+
+.home-slogan-button {
+  display: block;
+  position: absolute;
+  left: 9.3%;
+  margin-top: 46px;
+  width: 125px;
+  height: 38px;
+  font-size: 15px;
+  border-radius: 5px;
+  line-height: 34px;
+  text-align: center;
+  color: #4f7161;
+  border: 2px solid #4f7161;
+  font-family: "nbg";
+}
+
+.home-menu1 {
+  position: absolute;
+  bottom: 14.3%;
+  left: 7%;
+  width: 52.6%;
+  max-width: 567px;
+}
+
+.home-menu2 {
+  position: absolute;
+  bottom: 32.1%;
+  right: 15.7%;
+  width: 45.6%;
+  max-width: 492px;
+}
+
+.home-menu3 {
+  position: absolute;
+  bottom: 18.8%;
+  right: -8.7%;
+  width: 29.3%;
+  max-width: 315px;
+}

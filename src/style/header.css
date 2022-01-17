@@ -7,6 +7,7 @@ header {
   background-color: #f6f5ef;
   border-top: 2px solid #000000;
   border-bottom: 1px solid #e5e5e5;
+  z-index: 99;
 }
 
 .header-wrapper {
@@ -27,7 +28,7 @@ header {
   display: block;
   width: 75px;
   height: 100%;
-  background-image: url("../../assets/header/logo.png");
+  background-image: url("../../assets/img/header/logo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -46,7 +47,7 @@ header {
   right: 62px;
   height: 20px;
   display: flex;
-  background-image: url("../../assets/header/subbar-vertical.png");
+  background-image: url("../../assets/img/header/subbar-vertical.png");
   background-repeat: no-repeat;
   background-position: 3px;
 }
