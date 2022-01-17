@@ -48,3 +48,7 @@ ul,
 ol {
   list-style: none;
 }
+@font-face {
+  font-family: "nbg";
+  src: url("../../assets/fonts/NanumBarunGothic.woff");
+}
