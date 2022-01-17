@@ -46,18 +46,26 @@ main {
   font-family: "nbg";
 }
 
-.home-img-wrapper {
-  position: relative;
-}
-
 .home-menu1 {
   position: absolute;
+  bottom: 14.3%;
+  left: 7%;
+  width: 52.6%;
+  max-width: 567px;
 }
 
 .home-menu2 {
   position: absolute;
+  bottom: 32.1%;
+  right: 15.7%;
+  width: 45.6%;
+  max-width: 492px;
 }
 
 .home-menu3 {
   position: absolute;
+  bottom: 18.8%;
+  right: -8.7%;
+  width: 29.3%;
+  max-width: 315px;
 }
